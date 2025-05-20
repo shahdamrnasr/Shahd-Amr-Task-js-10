@@ -1,0 +1,62 @@
+body{ font-family: Arial, sans-serif; background-color: #0f224b; }
+
+.mb-4{ color: #fff; margin-top: -40px; text-align: center; }
+
+.line { width: 200px; height: 4px; margin: auto;  border-radius: 50%; margin-top: -15px; margin-bottom:30px;
+    background-color: rgb(239, 239, 37); }
+
+.title2{padding-top: 110px; margin-left: 225px;}
+
+.product-card { box-shadow: 0px 0px 10px rgba(228, 228, 220, 0.861); border: none; margin-bottom: 20px; 
+    height: 100%; display: flex; justify-content: center; align-items: center;}
+.product-card{ animation: animated linear; animation-timeline: view(); animation-range: entry 0% cover 40%;}
+@keyframes animated{
+    from{
+        opacity: 0;
+        scale: 0;
+        transform: translateX(200px);
+        clip-path: inset(100% 100% 0 0);
+    }
+    to{
+        opacity: 1;
+        scale: 1;
+        transform: rotateX(0);
+        clip-path: inset(0 0 0 0);
+    }
+}
+
+.icon { position: absolute; top: 8px; left: 7px; font-size: 35px; color: #bfc0c2; z-index: 100; transition: color 0.3s ease; }
+
+.icon:hover { color: red; cursor: pointer; }
+
+.card-body{text-align: center; }
+
+.product-image { cursor: pointer;}
+
+.add-to-cart { margin-top: 10px; }
+
+.btn-primary{ background-color: rgb(14, 178, 14); color: #fff; border: none;  padding: 10px 20px; margin-bottom: -25px; cursor: pointer;
+    border-radius: 4px;}
+
+.btn-primary:hover { background-color: green !important; }
+
+.h2{ text-align: center; color: #fff; }
+
+#emptyMessage{text-align: center; color: yellow; padding: 10px; margin-top: -10px;}
+
+#shoppingCart{text-align: center; color: yellow; padding: 10px; margin-top: -10px;}
+
+#price{color: #fff; text-align: center; margin-top: 15px;}
+
+button { cursor: pointer;  font-size: 1rem;  padding: 8px 16px; }
+
+footer { text-align: center;  margin-top: 30px;  padding: 10px 0;  background-color: #13829b; }
+
+#Totel{ width: 86%; margin: auto; color: #fff; margin-top: 10px; background-color: blue; display: none;}
+
+#Clear{ color: #fff; margin: auto; background-color: red; display: none;}
+
+P{ color: rgb(112, 108, 106); }
+
+.heart { position: absolute; top: 10px; left: 10px; width: 50px; height: 50px; background-color: rgb(250, 244, 244); 
+    border-radius: 50%; }

@@ -1,0 +1,553 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Store</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/styel.css">
+    <link rel="stylesheet" href="./css/all.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-sm navbar-dark col-12" style="background-color: rgb(52, 96, 105);">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="./images/images (22).jpeg" alt="Avatar Logo" style="width:40px;" class="rounded-pill">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="mynavbar">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="javascript:void(0)" style="color: #fff;">Shoes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="javascript:void(0)" style="color: #fff;">Clothes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="javascript:void(0)" style="color: #fff;">food</a>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <input id="search" class="form-control me-2" type="text" placeholder="ابحث عن المنتج..."
+                    lang="ar" dir="rtl">
+                    <button class="btn btn-primary" type="button"
+                        style="background-color: rgb(57, 158, 124); height: 40px;">Search</button>
+                </form>
+            </div><!-- /collapse navbar-collapse -->
+        </div><!-- /container-fluid -->
+    </nav>
+            <!-- ------------------------------------- -->
+    <div class="container my-5">
+        <h1 class="mb-4">Products Store</h1>
+        <div class="line"></div><!-- /line -->
+        <div class="row g-3">
+            <!-- منتج 1 -->
+            <div class="col-12 col-sm-6 col-md-4">
+                <div class="card product-card">
+                    <div class="product-image w-100" style="height: 390px;">
+                        <img src="./images/twaMYFK7sBzsugfg3tsAETqNiKLxxD4qqTGpz14c_480x480.webp"
+                            class="card-img-top" alt="Sauvage perfume"
+                            style="height: 100%; width: 100%;">
+                        <div class="heart">
+                            <i class="fa-solid fa-heart icon"></i>
+                        </div><!-- /heart -->
+                    </div><!-- /product-image -->
+                    <div class="card-body">
+                        <h4 class="card-title">Sauvage perfume</h4>
+                        <p>French perfume, a scent that lasts more than three days - an attractive and refreshing scent
+                        </p>
+                        <a href="#content" class="btn btn-primary" product="Sauvage perfume" price="130">Add to cart</a>
+                    </div><!-- /card-body -->
+                </div><!-- /card product-card -->
+            </div><!-- /col-12 col-sm-6 col-md-4 -->
+            <!-- ********************************************* -->
+            <!-- منتج 2 -->
+            <div class="col-12 col-sm-6 col-md-4">
+                <div class="card product-card">
+                    <div class="product-image w-100" style="height: 390px;">
+                        <img src="./images/أفضل-ماركات-ساعات-رجالي-ساعات-رادو-RADO.jpg"
+                            class="card-img-top" alt="Rado watch"
+                            style="height: 100%; width: 100%;">
+                        <div class="heart">
+                            <i class="fa-solid fa-heart icon"></i>
+                        </div><!-- /heart -->
+                    </div><!-- /product-image -->
+                    <div class="card-body">
+                        <h4 class="card-title">Rado watch</h4>
+                        <p>Own a watch that reflects the beauty of your personality on your wrist and makes time more
+                            than just numbers</p>
+                        <a href="#content" class="btn btn-primary" product="Rado watch" price="190">Add to cart</a>
+                    </div><!-- /card-body -->
+                </div><!-- /card product-card -->
+            </div><!-- /col-12 col-sm-6 col-md-4 -->
+            <!-- ********************************************* -->
+            <!-- منتج 3 -->
+            <div class="col-12 col-sm-6 col-md-4">
+                <div class="card product-card">
+                    <div class="product-image w-100" style="height: 390px;">
+                        <img src="./images/nSk3tLEHLNRpEe0f2vCaaOWgR67s7jodoJo9QV1W.webp"
+                            class="card-img-top" alt="Dior glasses" style="height: 100%; width: 100%;">
+                        <div class="heart">
+                            <i class="fa-solid fa-heart icon"></i>
+                        </div><!-- /heart -->
+                    </div><!-- /product-image -->
+                    <div class="card-body">
+                        <h4 class="card-title">Dior glasses</h4>
+                        <p>Charm everyone with an elegant look with the freshness of Dior</p>
+                        <a href="#content" class="btn btn-primary" product="Dior glasses" price="270">Add to cart</a>
+                    </div><!-- /card-body -->
+                </div><!-- /card product-card -->
+            </div><!-- /col-12 col-sm-6 col-md-4 -->
+            <!-- ********************************************* -->
+            <!-- منتج 4 -->
+            <div class="col-12 col-sm-6 col-md-4">
+                <div class="card product-card">
+                    <div class="product-image w-100" style="height: 390px;">
+                        <img src="./images/51Mk+wAYGjL._AC_.jpg" class="card-img-top"
+                            alt="Men's half boots" style="height: 100%; width: 100%;">
+                        <div class="heart">
+                            <i class="fa-solid fa-heart icon"></i>
+                        </div><!-- /heart -->
+                    </div><!-- /product-image -->
+                    <div class="card-body">
+                        <h4 class="card-title">Men's half boots</h4>
+                        <p>The men's half boot is a practical and stylish shoe that covers the ankle and provides
+                            comfort and support for the feet.</p>
+                        <a href="#content" class="btn btn-primary" product="Men's half boots" price="380">Add to
+                            cart</a>
+                    </div><!-- /card-body -->
+                </div><!-- /card product-card -->
+            </div><!-- /col-12 col-sm-6 col-md-4 -->
+            <!-- ****************************************** -->
+            <!-- منتج 5 -->
+            <div class="col-12 col-sm-6 col-md-4">
+                <div class="card product-card">
+                    <div class="product-image w-100" style="height: 390px;">
+                        <img src="./images/275209650_338573301543868_7058794817686160906_n.jpg"
+                            class="card-img-top" alt="Men's sneakers"
+                            style="height: 100%; width: 100%;">
+                        <div class="heart">
+                            <i class="fa-solid fa-heart icon"></i>
+                        </div><!-- /heart -->
+                    </div><!-- /product-image -->
+                    <div class="card-body">
+                        <h4 class="card-title">Men's sneakers</h4>
+                        <p>Men's sneakers are versatile, comfortable shoes that offer style, support, and breathability
+                            for everyday wear.</p>
+                        <a href="#content" class="btn btn-primary" product="Men's sneakers" price="370">Add to cart</a>
+                    </div><!-- /card-body -->
+                </div><!-- /card product-card -->
+            </div><!-- /col-12 col-sm-6 col-md-4 -->
+            <!-- **************************************** -->
+            <!-- منتج 6 -->
+            <div class="col-12 col-sm-6 col-md-4">
+                <div class="card product-card">
+                    <div class="product-image w-100" style="height: 390px;">
+                        <img src="./images/كوتشي-شبابي-أسود.jpg" class="card-img-top"
+                            alt="Men's shoes" style="height: 100%; width: 100%;">
+                        <div class="heart">
+                            <i class="fa-solid fa-heart icon"></i>
+                        </div><!-- /heart -->
+                    </div><!-- /product-image -->
+                    <div class="card-body">
+                        <h4 class="card-title">Men's shoes</h4>
+                        <P>The men's sneaker is a comfortable and stylish shoe suitable for daily use, providing good
+                            support for the feet.</P>
+                        <a href="#content" class="btn btn-primary" product="Men's shoes" price="400">Add to cart</a>
+                    </div><!-- /card-body -->
+                </div><!-- /card product-card -->
+            </div><!-- /col-12 col-sm-6 col-md-4 -->
+            <!-- *************************************** -->
+            <!-- منتج 7 -->
+            <div class="col-12 col-sm-6 col-md-4">
+                <div class="card product-card">
+                    <div class="product-image w-100" style="height: 390px;">
+                        <img src="./images/1653791390363202311040146134613.jpg"
+                            class="card-img-top" alt="M2 MacBook Air"
+                            style="height: 100%; width: 100%;">
+                        <div class="heart">
+                            <i class="fa-solid fa-heart icon"></i>
+                        </div><!-- /heart -->
+                    </div><!-- /product-image -->
+                    <div class="card-body">
+                        <h4 class="card-title">M2 MacBook Air</h4>
+                        <P>The M2 MacBook Air is a slim and powerful laptop, offering high performance and long battery
+                            life with a sleek design.</P>
+                        <a href="#content" class="btn btn-primary" product="M2 MacBook Air" price="120000">Add to
+                            cart</a>
+                    </div><!-- /card-body -->
+                </div><!-- /card product-card -->
+            </div><!-- /col-12 col-sm-6 col-md-4 -->
+            <!-- ******************************************* -->
+            <!-- منتج 8 -->
+            <div class="col-12 col-sm-6 col-md-4">
+                <div class="card product-card">
+                    <div class="product-image w-100" style="height: 390px;">
+                        <img src="./images/Samsung Galaxy S22 Ultra.webp" class="card-img-top"
+                            alt="Galaxy S22 Ultra" style="height: 100%; width: 100%;">
+                        <div class="heart">
+                            <i class="fa-solid fa-heart icon"></i>
+                        </div><!-- /heart -->
+                    </div><!-- /product-image -->
+                    <div class="card-body">
+                        <h4 class="card-title">Galaxy S22 Ultra</h4>
+                        <P>The Galaxy S22 Ultra is an advanced smartphone featuring a powerful camera, excellent
+                            performance, stunning display, and a premium design.</P>
+                        <a href="#content" class="btn btn-primary" product="Galaxy S22 Ultra" price="10500">Add to
+                            cart</a>
+                    </div><!-- /card-body -->
+                </div><!-- /card product-card -->
+            </div><!-- /col-12 col-sm-6 col-md-4 -->
+            <!-- ****************************************** -->
+            <!-- منتج 9 -->
+            <div class="col-12 col-sm-6 col-md-4">
+                <div class="card product-card">
+                    <div class="product-image w-100" style="height: 390px;">
+                        <img src="./images/a78-design.webp" class="card-img-top" alt="OPPO A78"
+                            style="height: 100%; width: 100%;">
+                        <div class="heart">
+                            <i class="fa-solid fa-heart icon"></i>
+                        </div><!-- /heart -->
+                    </div><!-- /product-image -->
+                    <div class="card-body">
+                        <h4 class="card-title">OPPO A78</h4>
+                        <P>The OPPO A78 is a standout smartphone offering good performance, long-lasting battery, and a
+                            modern design.</P>
+                        <a href="#content" class="btn btn-primary" product="OPPO A78" price="5500">Add to cart</a>
+                    </div><!-- /card-body -->
+                </div><!-- /card product-card -->
+            </div><!-- /col-12 col-sm-6 col-md-4 -->
+            <!-- *************************************** -->
+            <!-- منتج 10 -->
+            <div class="col-12 col-sm-6 col-md-4">
+                <div class="card product-card">
+                    <div class="product-image w-100" style="height: 390px;">
+                        <img src="./images/images (25).jpeg" class="card-img-top"
+                            alt="Women's Hills" style="height: 100%; width: 100%;">
+                        <div class="heart">
+                            <i class="fa-solid fa-heart icon"></i>
+                        </div><!-- /heart -->
+                    </div><!-- /product-image -->
+                    <div class="card-body">
+                        <h4 class="card-title">Women's Hills</h4>
+                        <P>Women's heels add a touch of elegance and femininity, providing a chic look with a flattering
+                            lift.</P>
+                        <a href="#content" class="btn btn-primary" product="Women's Hills" price="290">Add to cart</a>
+                    </div><!-- /card-body -->
+                </div><!-- /card product-card -->
+            </div><!-- /col-12 col-sm-6 col-md-4 -->
+            <!-- ********************************************* -->
+            <!-- منتج 11 -->
+            <div class="col-12 col-sm-6 col-md-4">
+                <div class="card product-card">
+                    <div class="product-image w-100" style="height: 390px;">
+                        <img src="./images/1.jpg" class="card-img-top" alt="Women's shoes"
+                            style="height: 100%; width: 100%;">
+                        <div class="heart">
+                            <i class="fa-solid fa-heart icon"></i>
+                        </div><!-- /heart -->
+                    </div><!-- /product-image -->
+                    <div class="card-body">
+                        <h4 class="card-title">Women's shoes</h4>
+                        <P>Women's shoes combine comfort and style, perfect for various looks and occasions</P>
+                        <a href="#content" class="btn btn-primary" product="Women's shoes" price="300">Add to cart</a>
+                    </div><!-- /card-body -->
+                </div><!-- /card product-card -->
+            </div><!-- /col-12 col-sm-6 col-md-4 -->
+            <!-- ********************************************* -->
+            <!-- منتج 12 -->
+            <div class="col-12 col-sm-6 col-md-4">
+                <div class="card product-card">
+                    <div class="product-image w-100" style="height: 390px;">
+                        <img src="./images/WfNy3-dLFAqvi6Jl.jpg" class="card-img-top"
+                            alt="Women's half boot" style="height: 100%; width: 100%;">
+                        <div class="heart">
+                            <i class="fa-solid fa-heart icon"></i>
+                        </div><!-- /heart -->
+                    </div><!-- /product-image -->
+                    <div class="card-body">
+                        <h4 class="card-title">Women's half boot</h4>
+                        <P>The women's half boot is a trendy shoe that provides comfort and support with an
+                            ankle-covering design.</P>
+                        <a href="#content" class="btn btn-primary" product="Women's half boot" price="350">Add to
+                            cart</a>
+                    </div><!-- /card-body -->
+                </div><!-- /card product-card -->
+            </div><!-- /col-12 col-sm-6 col-md-4 -->
+            <!-- ********************************************* -->
+            <!-- منتج 13 -->
+            <div class="col-12 col-sm-6 col-md-4">
+                <div class="card product-card">
+                    <div class="product-image w-100" style="height: 390px;">
+                        <img src="./images/wPlbrv5D9udF5bkO0PAI7TtCWxiU4oI2ZuwotTvC.webp"
+                            class="card-img-top" alt="Hoodie cables"
+                            style="height: 100%; width: 100%;">
+                        <div class="heart">
+                            <i class="fa-solid fa-heart icon"></i>
+                        </div><!-- /heart -->
+                    </div><!-- /product-image -->
+                    <div class="card-body">
+                        <h4 class="card-title">Hoodie cables</h4>
+                        <P>Hoodie cables are design details that add a unique touch to sportswear, offering comfort and
+                            flexibility while wearing.</P>
+                        <a href="#content" class="btn btn-primary" product="Hoodie cables" price="130">Add to
+                            cart</a>
+                    </div><!-- /card-body -->
+                </div><!-- /card product-card -->
+            </div><!-- /col-12 col-sm-6 col-md-4 -->
+            <!-- ********************************************* -->
+            <!-- منتج 14 -->
+            <div class="col-12 col-sm-6 col-md-4">
+                <div class="card product-card">
+                    <div class="product-image w-100" style="height: 390px;">
+                        <img src="./images/2copy4_1024x.webp" class="card-img-top"
+                            alt="Back bag" style="height: 100%; width: 100%;">
+                        <div class="heart">
+                            <i class="fa-solid fa-heart icon"></i>
+                        </div><!-- /heart -->
+                    </div><!-- /product-image -->
+                    <div class="card-body">
+                        <h4 class="card-title">Back bag</h4>
+                        <P>A buck bag is a small, practical handbag with a trendy design, easily carried by hand or on
+                            the shoulder.</P>
+                        <a href="#content" class="btn btn-primary" product="Back bag" price="310">Add to
+                            cart</a>
+                    </div><!-- /card-body -->
+                </div><!-- /card product-card -->
+            </div><!-- /col-12 col-sm-6 col-md-4 -->
+            <!-- ********************************************* -->
+            <!-- منتج 15 -->
+            <div class="col-12 col-sm-6 col-md-4">
+                <div class="card product-card">
+                    <div class="product-image w-100" style="height: 390px;">
+                        <img src="./images/2022-04-26_001852.png" class="card-img-top"
+                            alt="Floral blouse" style="height: 100%; width: 100%;">
+                        <div class="heart">
+                            <i class="fa-solid fa-heart icon"></i>
+                        </div><!-- /heart -->
+                    </div><!-- /product-image -->
+                    <div class="card-body">
+                        <h4 class="card-title">Floral blouse</h4>
+                        <P>A floral blouse is a stylish piece that adds a touch of color and femininity to the outfit.
+                        </P>
+                        <a href="#content" class="btn btn-primary" product="Floral blouse" price="525">Add to
+                            cart</a>
+                    </div><!-- /card-body -->
+                </div><!-- /card product-card -->
+            </div><!-- /col-12 col-sm-6 col-md-4 -->
+            <!-- ********************************************* -->
+            <!-- منتج 16 -->
+            <div class="col-12 col-sm-6 col-md-4">
+                <div class="card product-card">
+                    <div class="product-image w-100" style="height: 390px;">
+                        <img src="./images/Realme-12-5G-image-4.jpg" class="card-img-top"
+                            alt="Realme-12-5G" style="height: 100%; width: 100%;">
+                        <div class="heart">
+                            <i class="fa-solid fa-heart icon"></i>
+                        </div><!-- /heart -->
+                    </div><!-- /product-image -->
+                    <div class="card-body">
+                        <h4 class="card-title">Realme-12-5G</h4>
+                        <P>The Realme 12 5G is a smartphone offering strong performance with 5G connectivity and an
+                            advanced camera at an affordable price.</P>
+                        <a href="#content" class="btn btn-primary" product="Realme-12-5G" price="12500">Add to
+                            cart</a>
+                    </div><!-- /card-body -->
+                </div><!-- /card product-card -->
+            </div><!-- /col-12 col-sm-6 col-md-4 -->
+            <!-- ********************************************* -->
+            <!-- منتج 17 -->
+            <div class="col-12 col-sm-6 col-md-4">
+                <div class="card product-card">
+                    <div class="product-image w-100" style="height: 390px;">
+                        <img src="./images/كتالوج-صور-ساعات-حريمي-أنيقة-وشيك-2024-3.jpg"
+                            class="card-img-top" alt="Women's watch"
+                            style="height: 100%; width: 100%;">
+                        <div class="heart">
+                            <i class="fa-solid fa-heart icon"></i>
+                        </div><!-- /heart -->
+                    </div><!-- /product-image -->
+                    <div class="card-body">
+                        <h4 class="card-title">Women's watch</h4>
+                        <P>A women's watch is a stylish accessory that combines functionality and beauty, adding a touch
+                            of elegance to the look</P>
+                        <a href="#content" class="btn btn-primary" product="Women's watch" price="170">Add to
+                            cart</a>
+                    </div><!-- /card-body -->
+                </div><!-- /card product-card -->
+            </div><!-- /col-12 col-sm-6 col-md-4 -->
+            <!-- ********************************************* -->
+            <!-- منتج 18 -->
+            <div class="col-12 col-sm-6 col-md-4">
+                <div class="card product-card">
+                    <div class="product-image w-100" style="height: 390px;">
+                        <img src="./images/6qo9IZq81nhltyMuuUiDpC68Dwu6h5u0zWo55EYX.webp"
+                            class="card-img-top" alt="Wireless headphones"
+                            style="height: 100%; width: 100%;">
+                        <div class="heart">
+                            <i class="fa-solid fa-heart icon"></i>
+                        </div><!-- /heart -->
+                    </div><!-- /product-image -->
+                    <div class="card-body">
+                        <h4 class="card-title">Wireless headphones</h4>
+                        <P>Wireless headphones provide a comfortable, high-quality audio experience without the need for
+                            wires, making it easier to move around.</P>
+                        <a href="#content" class="btn btn-primary" product="Wireless headphones" price="600">Add to
+                            cart</a>
+                    </div><!-- /card-body -->
+                </div><!-- /card product-card -->
+            </div><!-- /col-12 col-sm-6 col-md-4 -->
+            <!-- ********************************************* -->
+            <!-- منتج 19 -->
+            <div class="col-12 col-sm-6 col-md-4">
+                <div class="card product-card">
+                    <div class="product-image w-100" style="height: 390px;">
+                        <img src="./images/rPe3wIAnKUXywjMIUIwJXU0iOtHqxIieBncAdHdt.webp"
+                            class="card-img-top" alt="Men's pullover"
+                            style="height: 100%; width: 100%;">
+                        <div class="heart">
+                            <i class="fa-solid fa-heart icon"></i>
+                        </div><!-- /heart -->
+                    </div><!-- /product-image -->
+                    <div class="card-body">
+                        <h4 class="card-title">Men's pullover</h4>
+                        <P>A men's pullover is a comfortable and stylish garment, perfect for cold weather and adding a
+                            touch of elegance to the outfit.</P>
+                        <a href="#content" class="btn btn-primary" product="Men's pullover" price="450">Add to
+                            cart</a>
+                    </div><!-- /card-body -->
+                </div><!-- /card product-card -->
+            </div><!-- /col-12 col-sm-6 col-md-4 -->
+            <!-- ********************************************* -->
+            <!-- منتج 20 -->
+            <div class="col-12 col-sm-6 col-md-4">
+                <div class="card product-card">
+                    <div class="product-image w-100" style="height: 390px;">
+                        <img src="./images/images (21).jpeg" class="card-img-top"
+                            alt="Casual Kids set" style="height: 100%; width: 100%;">
+                        <div class="heart">
+                            <i class="fa-solid fa-heart icon"></i>
+                        </div><!-- /heart -->
+                    </div><!-- /product-image -->
+                    <div class="card-body">
+                        <h4 class="card-title">Casual Kids set</h4>
+                        <P>A casual kids' set is comfortable and practical clothing, perfect for daily activities and
+                            allowing freedom of movement for children.</P>
+                        <a href="#content" class="btn btn-primary" product="Casual Kids set" price="390">Add to
+                            cart</a>
+                    </div><!-- /card-body -->
+                </div><!-- /card product-card -->
+            </div><!-- /col-12 col-sm-6 col-md-4 -->
+            <!-- ********************************************* -->
+            <!-- منتج 21 -->
+            <div class="col-12 col-sm-6 col-md-4">
+                <div class="card product-card">
+                    <div class="product-image w-100" style="height: 390px;">
+                        <img src="./images/1648259256658.jpg" class="card-img-top"
+                            alt="Steam iron" style="height: 100%; width: 100%;">
+                        <div class="heart">
+                            <i class="fa-solid fa-heart icon"></i>
+                        </div><!-- /heart -->
+                    </div><!-- /product-image -->
+                    <div class="card-body">
+                        <h4 class="card-title">Steam iron</h4>
+                        <P>A steam iron is an effective device that uses steam to smooth and wrinkle clothes quickly and
+                            easily.</P>
+                        <a href="#content" class="btn btn-primary" product="Steam iron" price="3550">Add to
+                            cart</a>
+                    </div><!-- /card-body -->
+                </div><!-- /card product-card -->
+            </div><!-- /col-12 col-sm-6 col-md-4 -->
+            <!-- ********************************************* -->
+            <!-- منتج 22 -->
+            <div class="col-12 col-sm-6 col-md-4">
+                <div class="card product-card">
+                    <div class="product-image w-100" style="height: 390px;">
+                        <img src="./images/images (24).jpeg" class="card-img-top"
+                            alt="Beef luncheon" style="height: 100%; width: 100%;">
+                        <div class="heart">
+                            <i class="fa-solid fa-heart icon"></i>
+                        </div><!-- /heart -->
+                    </div><!-- /product-image -->
+                    <div class="card-body">
+                        <h4 class="card-title">Beef luncheon</h4>
+                        <P>Beef luncheon is a processed meat product that offers a delicious taste and can be enjoyed in
+                            sandwiches or meals</P>
+                        <a href="#content" class="btn btn-primary" product="Beef luncheon" price="85">Add to
+                            cart</a>
+                    </div><!-- /card-body -->
+                </div><!-- /card product-card -->
+            </div><!-- /col-12 col-sm-6 col-md-4 -->
+            <!-- ********************************************* -->
+            <!-- منتج 23 -->
+            <div class="col-12 col-sm-6 col-md-4">
+                <div class="card product-card">
+                    <div class="product-image w-100" style="height: 390px;">
+                        <img src="./images/dSC8668.png" class="card-img-top" alt="Cheese slices"
+                            style="height: 100%; width: 100%;">
+                        <div class="heart">
+                            <i class="fa-solid fa-heart icon"></i>
+                        </div><!-- /heart -->
+                    </div><!-- /product-image -->
+                    <div class="card-body">
+                        <h4 class="card-title">Cheese slices</h4>
+                        <P>Cheese slices are thin pieces of cheese, perfect for adding to sandwiches or snacks.</P>
+                        <a href="#content" class="btn btn-primary" product="Cheese slices" price="240">Add to
+                            cart</a>
+                    </div><!-- /card-body -->
+                </div><!-- /card product-card -->
+            </div><!-- /col-12 col-sm-6 col-md-4 -->
+            <!-- ********************************************* -->
+            <!-- منتج 24 -->
+            <div class="col-12 col-sm-6 col-md-4">
+                <div class="card product-card">
+                    <div class="product-image w-100" style="height: 390px;">
+                        <img src="./images/images (12).jpeg" class="card-img-top"
+                            alt="Chicken luncheon" style="height: 100%; width: 100%;">
+                        <div class="heart">
+                            <i class="fa-solid fa-heart icon"></i>
+                        </div><!-- /heart -->
+                    </div><!-- /product-image -->
+                    <div class="card-body">
+                        <h4 class="card-title">Chicken luncheon</h4>
+                        <P>Chicken luncheon is a processed chicken meat product with a delicious flavor, perfect for
+                            sandwiches or meals.</P>
+                        <a href="#content" class="btn btn-primary" product="Chicken luncheon" price="110">Add to
+                            cart</a>
+                    </div><!-- /card-body -->
+                </div><!-- /card product-card -->
+            </div><!-- /col-12 col-sm-6 col-md-4 -->
+            <!-- ********************************************* -->
+        </div><!-- /row g-3 -->
+    </div><!-- /container my-5 -->
+
+    <!-- ///////////////////////////////////////////////////////////////////// -->
+    <h2 class="h2">
+        Shopping cart:
+    </h2>
+
+    <div id="emptyMessage">
+        Your shopping cart is empty
+    </div><!-- /emptyMessage -->
+
+    <div id="shoppingCart"></div><!-- /shoppingCart -->
+    <p id="notFound" style="color: red; display: none; text-align: center;">المنتج الذى تبحث عنه غير موجود</p>
+    <button id="Clear">Clear</button>
+    <button id="Totel">Totel</button>
+    <div id="price"></div><!-- /price -->
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p5>&copy; 2025 متجر إلكتروني. جميع الحقوق محفوظة.</p5>
+    </footer>
+
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
